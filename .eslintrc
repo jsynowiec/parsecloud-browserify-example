@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "curly": 2,
+    "space-in-parens": [2, "never"],
+    "object-curly-spacing": [1, "always"],
+    "array-bracket-spacing": [1, "never"],
+    "dot-notation": 2,
+    "eol-last": 1,
+    "no-console": 0
+  },
+  "env": {
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Parse": true
+  },
+  "plugins": []
+}
